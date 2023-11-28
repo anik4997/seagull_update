@@ -1,0 +1,184 @@
+body{
+    color: black;
+    font-family: "Montserrat", serif !important;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent; /* Bootstrap default border */
+    background-image: linear-gradient(to right, #00ff00, #0000ff);
+    background-clip: padding-box; /* Ensure gradient doesn't bleed into the border */
+    color: #ffffff;
+    background-color: #0000ff; /* Fallback color for browsers that don't support gradients */
+  }
+  /* .btn::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background-color: rgba(255, 255, 255, 0);
+  } */
+h1, h2, h3, h5, h6, a, p{
+    font-family: "Montserrat", serif !important;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+  /* Header section start */
+  #top_header_favicon_flex{
+    display: flex; 
+    align-items: center;
+  }
+  nav{
+    position: fixed;
+  }
+  nav .content .links {
+    margin-bottom: 0px !important;
+}
+  /* Header section end */
+  /* Banner section start */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.587); 
+}
+.banner_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Adjust the text color */
+    z-index: 1;
+    text-align: center;
+}
+.banner_content p{
+    width: 550px;
+    margin: 30px 0;
+    font-size: 18px;
+}
+.banner_content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+  
+.btn_learn_more{
+    background: rgba(255, 255, 255, 0.856);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn_learn_more:hover{
+    background: rgba(0, 0, 0, 0.826);
+    color: white;
+    
+    transition: all 0.3s ease;
+}
+/* Banner section end */
+/* Product slider section start*/
+.Product_section_heading h1{
+    text-align: center;
+}
+.pre_heading_book_section{
+    background: #00ae25;
+    color: aliceblue;
+    padding: 2px 10px;
+    clip-path: polygon(0 0, 100% 0%, 83% 100%, 0% 100%);
+    width: 18%;
+}
+.pre_heading_book_section h6{
+    font-size: 20px;
+}
+.pre_heading_book_section_bottom{
+    background: #00ae25;
+    color: aliceblue;
+    padding: 2px 10px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 17% 100%);
+    width: 18%;
+    float: right;
+    text-align: right;
+}
+.pre_heading_book_section_bottom h6 a{
+    color: aliceblue;
+}
+.card_deck{
+    padding: 50px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.card{
+    border: none !important;
+}
+.card-body {
+    display: none;
+    position: absolute;
+    padding: 10px !important;
+    top: 15%;
+    color: rgb(32, 32, 32);
+    background: rgba(0, 0, 0, 0.849);
+    width: 45px;
+    text-align: center;
+}
+.card:hover .card-body {
+    display: block;
+    transition: all 0.3s ease;
+}
+.card-body i{
+    margin: 20px 0;
+    width: 25px;
+    display: block;
+    background: rgba(255, 255, 255, 0.998);
+    padding: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.card-footer{
+    border: none !important;
+    width: 210px;
+    padding-top: 10px !important;
+    text-align: center;
+    background: rgba(255, 228, 181, 0.377) !important;
+}
+/* Product slider section end*/
+/* Slick slider for product section start*/
+.slick-prev:before, .slick-next:before
+{
+color:#000 !important;
+font-size: 30px !important;
+}
+.slick-prev{
+    left: 10px !important;
+    
+}
+.slick-next {
+    right: 10px !important;
+}
+.card-img-top {
+    width: 210px !important;
+}
+.slick-slide{
+    width: 300px !important;
+}
+.checked{
+    color: orange;
+}
+/* Slick slider for product section end*/
+
+/* Featured section start */
+.feature_col{
+    max-width: 210px !important;
+    margin: 20px 50px;
+}
+/* Featured section end */

@@ -1,0 +1,284 @@
+/* new code */
+@media (min-width: 991px) {
+  .sidebar_mobile_view{
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+}
+/* new code */
+
+@media (max-width: 1024px) {
+  /* new code */
+  nav .content .links{
+    top: 0px; 
+    margin-left: 0px !important;
+  }
+  .wrapper #show-menu:checked ~ .menu-icon i::before{
+    position: fixed;
+    top: 100px;
+  }
+  .menu-icon{
+    z-index: 99999;
+  }
+}
+@media (max-width: 991px) {
+  /* new code */
+  .sidebar_mobile_view_top{
+    display: none;
+  }
+  .wrapper #show-menu:checked ~ .menu-icon i::before{
+    position: fixed;
+    top: 100px;
+  }
+  nav .content .links{
+    top: 0px; 
+    margin-left: 0px !important;
+  }
+  .menu-icon{
+    z-index: 99999;
+  }
+  nav{
+    z-index: 9999;
+  }
+  /* custom class */
+  .text-content {
+    width: 100%;
+  }
+  /* .navbar-brand */
+  .navbar-wrap.navbar-brand img {
+    height: 3.75rem;
+  }
+  .navbar-wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+  .navbar-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+  .img_margin {
+    margin-left: 0px;
+}
+}
+
+@media (max-width: 767px) {
+  /* new code */
+  #pills-rev-tab{
+    justify-content: center;
+  }
+   .sidebar_mobile_view_top{
+    display: none;
+  }
+  .single_product .single_product_name {
+    /* new style */
+    text-align: center;
+    /* new style */
+  }
+  .wrapper #show-menu:checked ~ .menu-icon i::before{
+    position: fixed;
+    top: 100px;
+  }
+  .header-top{
+    position: sticky;
+    z-index: 99999;
+  }
+  .menu-icon{
+    z-index: 99999;
+  }
+  nav{
+    z-index: 9999;
+  }
+  .product_list {
+    margin-bottom: 50px ;
+    text-align: center;
+}
+nav .content .links{
+  top: 0px; 
+  padding-top: 66px;
+}
+  .shop{
+    padding-top: 20px;
+  }
+ 
+  .product_list_item .col-md-4{
+    display: flex;
+    justify-content: center;
+  }
+  .features{
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  .seagull_remove{
+    margin: 0;
+  }
+  .load_web{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .copyright_mediaquery_footer{
+    font-size: 14px;
+  }
+  .responsive_mobile{
+    font-size: 16px;
+  }
+  .login_mobile{
+    margin-left: 10px;
+  }
+  .login_btn{
+    margin-left: 0px;
+  }
+
+  .banner-section h2 {
+    font-size: 30px;
+  }
+  .banner-section p {
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /* prayment part  */
+  .sidebar .sidebar_widget .search-wrap {
+    height: auto;
+    width: 150px;
+  }
+  /* product-detail  */
+  .product_tab .nav-item {
+    margin-right: 4px;
+    width: calc(100%);
+    text-align: center;
+  }
+  .product_tab .nav-item:nth-child(2) {
+    width: calc(100%);
+    margin-top: -20px;
+  }
+  .product_tab .nav-item:last-child {
+    margin-top: -20px;
+  }
+
+  .product_tab .nav_tab .nav-link {
+    font-size: 15px;
+    padding: 15px;
+  }
+  /* .card css */
+
+  .product_filter .sort-by {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .product_list_items .product_list_item img {
+    
+    margin-bottom: 20px;
+  }
+  /* causes start  */
+  .progress .progress-value {
+    width: 90%;
+    height: 90%;
+    top: -5px;
+    left: -22px;
+  }
+  .progress {
+    width: 200px;
+    height: 60px;
+  }
+  .section_header h2 {
+    margin-top: 50px;
+  }
+  .list_event_title a {
+    font-size: 18px;
+    padding: 25px;
+  }
+  .event_list_center_wrapper .day {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .list_event_time {
+    padding: 25px;
+  }
+  /* .footer start  */
+  footer{
+    padding: 45px;
+  }
+  .footer .form-control {
+    height: auto;
+    width: 200px;
+  }
+  .footer .main-btn {
+    height: 38.5px;
+    width: auto;
+    padding: 5px;
+  }
+}
+@media (max-width:400px) {
+	
+	#top_header_favicon_flex {
+    float:none;
+	}
+  .footer .main-btn {
+    height: 100%;
+  }
+
+  #top_header_flex{
+    padding-left: 25px;
+    /* new style */
+    text-align: center;
+  }
+
+  .card_padding_wraper{
+    padding: 10px;
+  }
+  .event_padding{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cases_content{
+    padding: 40px 15px;
+  }
+  /* new code */
+  .wrapper #show-menu:checked ~ .menu-icon i::before{
+    position: fixed;
+    top: 100px;
+  }
+  .email{
+    display: block;
+    color: black;
+    font-size: 15px;
+  }
+  nav{
+    z-index: 9999;
+  }
+  .product_list {
+    text-align: center;
+}
+.header-top{
+  position: sticky;
+  z-index: 99999;
+}
+nav .content .links{
+  top: 0px; 
+  padding-top: 66px;
+}
+.menu-icon{
+  z-index: 99999;
+}
+}
+@media (max-width: 330px) {
+  /* prayment start  */
+  .sidebar .sidebar_widget .search-wrap {
+    height: auto;
+    width: 100px;
+  }
+  /* footer start  */
+  .footer h4 {
+    text-align: center;
+  }
+  .footer li {
+    text-align: center;
+  }
+  .footer .social-icon {
+    text-align: center;
+  }
+  .footer .p {
+    text-align: center;
+  }
+}
