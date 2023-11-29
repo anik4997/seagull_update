@@ -49,6 +49,9 @@
         height: 70vh;
     }
      /* Product slider section end */
+     .foo_ter{
+        padding-left: 25px;
+     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
