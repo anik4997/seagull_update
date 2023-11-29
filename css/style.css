@@ -30,10 +30,10 @@ h1, h2, h3, h5, h6, a, p{
     display: none;
   }
   /* Header section start */
-  #top_header_favicon_flex{
+  /* #top_header_favicon_flex{
     display: flex; 
     align-items: center;
-  }
+  } */
   nav{
     position: fixed;
   }
