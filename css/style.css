@@ -1,6 +1,7 @@
 body{
     color: black;
     font-family: "Montserrat", serif !important;
+    overflow: hidden;
 }
 .button {
     display: inline-block;
