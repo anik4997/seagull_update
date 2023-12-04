@@ -90,7 +90,7 @@ p {
   width: 165px;
   line-height: 19px;
   background-color: rgba(232, 233, 235, 0);
-  border: 2px solid #008000;
+  border: 2px solid #0fb75e;
   border-radius: 10px;
   color: #000000;
   font-size: 16px;
@@ -108,7 +108,7 @@ p {
   line-height: 25px;
   letter-spacing: 1px;
   background: linear-gradient(93.7deg, rgba(37, 34, 34, 0.95) 65.92%, rgba(37, 34, 34, 0.64054) 81.51%, rgba(37, 34, 34, 0.368388) 89.88%, rgba(37, 34, 34, 0) 97.03%);
-  border: 2px solid #008000;
+  border: 2px solid #0fb75e;
   border-radius: 5px;
   color: #ffffff;
   font-size: 1.125rem;
@@ -246,18 +246,21 @@ color: #0fb75e;
 .feature-box {
   height: 175px;
   text-align: center;
-  border: 1px solid #e3e3e3;
   padding: 40px 30px 30px 30px;
-  background: #f8faff;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
   margin-bottom: 30px;
-  color: #000;
+  background-color: rgba(232, 233, 235, 0);
+  border: 2px solid #0fb75e;
+  border-radius: 10px;
+  color: #000000;
+  transform: all 0.4s ease-out 0s;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
 }
 .feature-box:hover {
-  background-color: #4caf50;
+  background-color: #0fb75e;
   color: white;
 }
 .feature-box .fbox-icon.has-hover {
@@ -534,7 +537,7 @@ color: #0fb75e;
   font-weight: 600;
   margin: 20 0 20px;
   line-height: 1;
-  color: #008000;
+  color: #0fb75e;
 }
 .list_event_title a {
   color: #333;
@@ -1065,7 +1068,7 @@ label span {
   color: #737373;
 }
 .text-theme {
-  color: #008000;
+  color: #0fb75e;
   font-weight:300;
   font-size:18px;
 }
@@ -1391,8 +1394,8 @@ button.btn-theme {
 }
 .btn_hover:hover{
   color: white;
-  background-color: rgb(0, 174, 37);
-  border: 2px solid rgb(0, 174, 37);
+  background-color: #0fb75e;
+  border: 2px solid #0fb75e;
 }
 .zindex{
   z-index: -1
